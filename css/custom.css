@@ -19,6 +19,43 @@ body {
   margin:10px 0px 5px;
 }
 
+#dots {
+  cursor: pointer;
+}
+
+#microphone {
+  cursor: pointer;
+}
+
+.menu #sign_in {
+  background: #1a73e8;
+  margin-left: 25px; 
+  padding: 7px 10px;
+  padding-left: 25px;
+  border-radius: 3px;
+  font-family: Google Sans,Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.25px;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 24px;
+  vertical-align: middle;
+}
+
+#sign_in:hover { 
+  box-shadow: 1px 1px 5px #999;
+}
+
+#sign_in {
+  color: #fff;
+}
+
+#sign_font {
+  text-decoration: none;
+  color: inherit;
+}
+
 .content {
   flex: 1;
   display: flex;
@@ -120,13 +157,12 @@ body {
 .search-buttons .a {
   text-decoration: none;
   margin-right: 15px;
-  background-color: #ecececaa;
-  color: black;
+  background-color: #f8f9fa;
   padding: 7px 12px;
-  border-radius: 5px;
+  border-radius: 4px;
   border: 1px solid rgba(0, 0, 0, 0);
-  font-size:.9rem;
-  color:#665544;
+  font-size:14px;
+  color:#3c4043;
   cursor:pointer;
 }
 
@@ -135,15 +171,15 @@ body {
 }
 
 .search-buttons .a:hover {
-  border: 1px solid #cccccc;
+  border: 1px solid #dadce0;
   color:#111111;
-  background: #ecececdd;
+  background: #f8f9fa;
 }
 
 .bottom-bar {
   display: flex;
   align-items: flex-end;
-  min-height:75px;
+  min-height:50px;
   background-color: #ecececaa;
   border-top: 1px solid #d4d4d4aa;
   justify-content: space-between;
@@ -156,7 +192,8 @@ body {
 }
 
 .bar .menu a{
-  font-size:.9rem;
+  font-size: 14px;
+  font-family: arial,sans-serif;
   color:#777777;
 }
 
