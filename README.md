@@ -1,12 +1,12 @@
-# Assignment 2 INTRO INFO SYSTEM 2301261
+# Assignment 2 Introduction to Information Systems Section 1 2301261
 
 <h2>Members</h2>
 <ol> 
-<li> a</li>
-<li> b</li>
-<li> c</li>
-<li> d</li>
-<li> e</li>
+<li> โภคิน นิธิสิริโชติ 6434475223</li>
+<li> กันต์ภพ หงษ์คณานุเคราะห์ 6434406023</li>
+<li> ภูผา ศิริรัตน์ 6434474623</li>
+<li> ศิรเมศร์ สินเครือสวน 6434485523</li>
+<li> ศิวกร เสงี่ยมมหาศาล 6434486123</li>
 </ol>
 
 
