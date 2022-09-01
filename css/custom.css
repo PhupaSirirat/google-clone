@@ -20,10 +20,32 @@ body {
 }
 
 #dots {
+  width: 16px;
+  height: 16px;
   cursor: pointer;
 }
 
 #microphone {
+  height: 20px;
+  width: 14px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+#camera {
+  height: 24px;
+  width: 24px;
+  vertical-align: middle;
+  margin-left: 20px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+#blumagnify {
+  height: 25px;
+  width: 25px;
+  color: #4285f4;
+  vertical-align: middle;
   cursor: pointer;
 }
 
@@ -61,7 +83,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content:center;
 }
 
 
