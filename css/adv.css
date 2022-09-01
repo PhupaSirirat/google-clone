@@ -53,10 +53,19 @@
 	flex-direction: column;
 }
 
-.column2 .row p{
+.column2 .first {
+	padding-top: 16px;
+	padding-bottom: 4px;
+}
+
+.column2 .row2 p{
 	font-size:10px;
-	line-height:25px;
 	color:#334422bb;
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 11px 5px;
+    min-height: 25px;
 }
 
 @media screen and (max-width: 1100px) {
@@ -127,6 +136,6 @@ button{
 	white-space: nowrap;
 	user-select: none;
 	box-shadow: none;
-	margin:20px 0px 20px auto;
+	margin:20px 5px 20px auto;
 	display: block;
 }
